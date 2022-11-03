@@ -1,3 +1,4 @@
+
 let num=23;
  let count=0;
  for(let a=1; a<=num; a++){
@@ -9,3 +10,5 @@ let num=23;
          else{
             console.log("it is not a prime"); 
          }
+
+
