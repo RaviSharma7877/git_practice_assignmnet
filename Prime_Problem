@@ -1,11 +1,11 @@
-let coun = "";
+let count = 0;
 let num = 23;
-for(let i=1;i<num;i++){
+for(let i=1;i<=num;i++){
 if(num%i==0){
-coun++;
+count++;
 }
 }
-if(coun>=2){
+if(count==2){
 console.log("it is a prime")
 }else{
 console.log("it is not a prime")
