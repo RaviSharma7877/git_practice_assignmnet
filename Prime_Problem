@@ -1,0 +1,12 @@
+let coun = "";
+let num = 23;
+for(let i=1;i<num;i++){
+if(num%i==0){
+coun++;
+}
+}
+if(coun>=2){
+console.log("it is a prime")
+}else{
+console.log("it is not a prime")
+}
